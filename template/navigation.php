@@ -2,10 +2,11 @@
 //Barre de navigation
 
 //Dossier racine
-$homedir = "http://php-decouverte.bwb/";
+//$homedir = "http://php-decouverte.bwb/";
+$homedir = "http://localhost:8888/phpdecouverte/";
 
 //recup de la liste des fichiers du dossier content
-$fichiers = scandir("/home/cantinelli/ServeurWeb/php-decouverte.bwb/contents/");
+$fichiers = scandir("/Users/utilisateur/MesApps/phpdecouverte/contents/");
 
 //Creation de la liste de fichiers sous la forme: nom du lien => lien
 $listeFichiers = array("home" => $homedir);
